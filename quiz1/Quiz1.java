@@ -29,8 +29,6 @@ public class Quiz1 {
 
         int temp;
 
-        do {
-            isSorted = true;
             for (int i = 0; i < sorted.length; i++) {
                 for (int j = i; j < sorted.length; j++) {
                     if (sorted[i] > sorted[j]) {
@@ -41,7 +39,6 @@ public class Quiz1 {
                     }
                 }
             }
-        } while (!isSorted);
 
         // print out the array
         for (int i = 0; i < sorted.length; i++) {
